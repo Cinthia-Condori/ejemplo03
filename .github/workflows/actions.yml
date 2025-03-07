@@ -6,5 +6,6 @@ on:
 jobs:
   trabajo1:
     runs-on: ubuntu-latest
-
-        
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2  # Esta es una acción predeterminada de GitHub para hacer checkout del repositorio
